@@ -12,8 +12,10 @@ public class SwaggerConfig {
     public OpenAPI openAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Swagger Test")
+                        .title("CGV 클론")
                         .version("0.0.1")
-                        .description("<h3>Swagger 테스트용 API 문서입니다.</h3>"));
+                        .description("<h3>CGV 클론코딩.</h3>"));
+
+        // http://localhost:8080/swagger-ui/index.html
     }
 }

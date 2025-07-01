@@ -49,7 +49,8 @@ public class SecurityConfig {
                                 "/swagger-ui/**",
                                 "/v3/api-docs/**",
                                 "/swagger-resources/**",
-                                "/webjars/**"
+                                "/webjars/**",
+                                "/movie/**"
                         ).permitAll()  // 로그인, 회원가입은 모두에게 허용
 
                         .anyRequest().authenticated()
